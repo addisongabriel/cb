@@ -22,5 +22,5 @@ menuButton.addEventListener("click", () => {
 const bigLinks = gsap.timeline();
 bigLinks.from(
   [".big-link_item"],
-  { y: "100%", opacity: "0%", ease: "expo.inOut", stagger: { amount: 0.75 } }
+  { y: "3rem", opacity: "0%", ease: "expo.inOut", stagger: { amount: 0.75 } }
 );
